@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #43d788;
+  --dark: #282727;
+  --grey: #c3bfbf;
+  --white: #fff;
+
+  --transition: all .3s ease-in;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
