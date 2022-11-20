@@ -62,10 +62,6 @@
   gap: 80px;
 }
 
-.news--blogpost--card img {
-  width: 40%;
-}
-
 .news--blogpost--info {
   text-align: left;
 }
@@ -91,4 +87,39 @@
 
 .blogpost__card img {
   width: 100%;
+}
+
+/* MAIN - blog */
+
+.blog__main--container {
+  width: 70%;
+}
+
+.contact__main--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px 80px;
+}
+
+.contact__main--flex {
+  flex-direction: row;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+.contact__main--flex img {
+  margin-right: 10px;
+}
+
+.contact__main--info h4 {
+  padding-bottom: 10px;
+}
+
+.contact__main--info p {
+  width: auto;
+  margin: 0;
+  text-align: justify;
 }

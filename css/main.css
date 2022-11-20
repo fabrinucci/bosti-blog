@@ -18,8 +18,8 @@ body {
 :root {
   --primary-color: #42c27e;
   --dark: #282727;
-  --grey: #d5d0d0;
-  --white: #f8f8f8;
+  --grey: #E6E9ED;
+  --white: #fff;
 
   --transition: all .3s ease-in;
 }
@@ -229,6 +229,8 @@ header {
 
 .news--blogpost--card img {
   width: 80%;
+  min-width: 280px;
+  max-width: 480px;
   border-radius: 5px;
 }
 
@@ -259,17 +261,6 @@ header {
   border-bottom: 2px solid var(--grey);
 }
 
-/* .main__blogposts--card h4::after {
-  content: '';
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 320px;
-  top: 45px;
-  left: calc(50% - 130px);
-  background-color: var(--grey);
-} */
-
 .blogposts__cards--container {
   display: grid;
   grid-template-columns: 1fr;
@@ -284,6 +275,8 @@ header {
 .blogpost__card img {
   width: 80%;
   border-radius: 4px;
+  min-width: 220px;
+  max-width: 350px;
 }
 
 .blogpost__card h5 {
@@ -296,6 +289,83 @@ header {
   margin-bottom: 20px;
 }
 
+/* MAIN - blog */
+
+.blog__img--container {
+  margin-bottom: 30px;
+}
+
+.blog__img--container img {
+  display: block;
+  width: 90%;
+  min-width: 300px;
+  max-width: 920px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.blog__main--container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog__card--container h4 {
+  border-bottom: 2px solid var(--grey);
+  padding-bottom: 10px;
+}
+
+.blog__card--info {
+  margin: 30px 0;
+}
+
+.blog__card--info h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.blog__card--info p {
+  margin-bottom: 20px;
+  letter-spacing: .1rem;
+  line-height: 2.5rem;
+}
+
+.blog__card--info p:last-of-type {
+  margin: 0;
+}
+
+
+/* Contact section */
+
+.contact__main--container {
+  padding: 50px 0;
+  background-color: var(--grey);
+}
+
+.contact__main--flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact__main--flex img {
+  width: 100px;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.contact__main--info h4 {
+  padding-bottom: 10px;
+}
+
+.contact__main--info p {
+  width: 70%;
+  margin: 0 auto 20px;
+  line-height: 2.5rem;
+}
+
+.contact__main--flex:last-child p {
+  margin-bottom: 0;
+}
 
 /* Footer */
 
