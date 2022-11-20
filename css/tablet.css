@@ -1,23 +1,3 @@
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 4.2rem;
-}
-
-h3 {
-  font-size: 3.4rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-p {
-  font-size: 2.8rem;
-}
-
 
 /* HEADER */
 
@@ -63,4 +43,52 @@ p {
 .main__home p {
   width: 100%;
   margin-bottom: 50px;
+}
+
+/* MAIN - Blogs */
+
+.main__news h4 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.main__news--container {
+  width: 80%;
+}
+
+.news--blogpost--card {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.news--blogpost--card img {
+  width: 40%;
+}
+
+.news--blogpost--info {
+  text-align: left;
+}
+
+.news--blogpost--info h3 {
+  margin: 0;
+}
+
+/* Blogpost card section */
+
+.main__blogposts--card {
+  width: 80%;
+}
+
+.blogposts__cards--container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.blogpost__card {
+  text-align: left;
+}
+
+.blogpost__card img {
+  width: 100%;
 }

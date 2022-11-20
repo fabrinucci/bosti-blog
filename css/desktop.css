@@ -1,0 +1,40 @@
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 3.1rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+.main__blogposts--card {
+  width: 80%;
+}
+
+.blogposts__cards--container {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.blogpost__card {
+  text-align: left;
+}
+
+.blogpost__card img {
+  width: 100%;
+}
