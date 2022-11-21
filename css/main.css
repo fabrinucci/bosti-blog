@@ -33,27 +33,27 @@ a {
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: 2.7rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.1rem;
 }
 
 h4 {
-  font-size: 2.2rem;
-}
-
-h5 {
   font-size: 1.8rem;
 }
 
+h5 {
+  font-size: 1.5rem;
+}
+
 p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 /* Buttons */
@@ -208,7 +208,7 @@ header {
   width: 100%;
 }
 
-.main__news h4 {
+.main__news h3 {
   font-weight: 500;
   text-align: center;
   margin-bottom: 25px;
@@ -238,13 +238,13 @@ header {
   text-align: center;
 }
 
-.news--blogpost--info h3 {
+.news--blogpost--info h2 {
   margin: 15px 0;
 }
 
 .news--blogpost--info p {
   margin: 25px 0;
-  line-height: 2.8rem;
+  line-height: 2.5rem;
 }
 
 /* Blogpost card section */
@@ -255,7 +255,7 @@ header {
   margin: auto;
 }
 
-.main__blogposts--card h4{
+.main__blogposts--card h3 {
   text-align: center;
   padding-bottom: 25px;
   border-bottom: 2px solid var(--grey);
@@ -279,17 +279,17 @@ header {
   max-width: 350px;
 }
 
-.blogpost__card h5 {
+.blogpost__card h4 {
   margin: 20px 0;
   font-weight: 500;
 }
 
 .blogpost__card p {
-  line-height: 2.8rem;
+  line-height: 2.5rem;
   margin-bottom: 20px;
 }
 
-/* MAIN - blog */
+/* MAIN - Blog */
 
 .blog__img--container {
   margin-bottom: 30px;
@@ -319,7 +319,6 @@ header {
 }
 
 .blog__card--info h1{
-  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
@@ -345,6 +344,11 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact__main--flex:last-of-type {
+  margin: 0;
 }
 
 .contact__main--flex img {
@@ -359,12 +363,65 @@ header {
 
 .contact__main--info p {
   width: 70%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   line-height: 2.5rem;
 }
 
-.contact__main--flex:last-child p {
-  margin-bottom: 0;
+/* MAIN - Profile */
+
+.profile__card--container {
+  padding: 30px 0;
+  background-color: var(--grey);
+}
+
+.profile__card--details {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.profile__card--details img {
+  width: 100%;
+  min-width: 250px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.profile__card--info h1 {
+  margin-bottom: 10px;
+}
+
+.profile__card--info p {
+  line-height: 2.2rem;
+  text-align: justify;
+}
+
+/* Projects section */
+
+.projects__main--container {
+  padding: 50px 0;
+}
+
+.projects__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projects__container h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--grey);
+}
+
+.projects__cards--container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.project__card h4 {
+  margin-bottom: 10px;
 }
 
 /* Footer */
