@@ -22,6 +22,16 @@ p {
   font-size: 1.9rem;
 }
 
+.header__social--icons i {
+  font-size: 2.2rem;
+}
+
+.header__social--icons a:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+  transform: scale(1.4);
+}
+
 .main__news--container {
   width: 80%;
 }

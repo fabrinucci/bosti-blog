@@ -16,7 +16,7 @@ body {
 }
 
 :root {
-  --primary-color: #42c27e;
+  --primary-color: #34a569;
   --dark: #282727;
   --grey: #E6E9ED;
   --white: #fff;
@@ -118,12 +118,6 @@ header {
   transition: var(--transition);
 }
 
-.header__social--icons a:hover {
-  color: var(--white);
-  background-color: var(--primary-color);
-  transform: scale(1.4);
-}
-
 .header__social--icons a:last-child {
   margin: 0;
 }
@@ -150,7 +144,7 @@ header {
 
 .header__nav--profile a {
   color: var(--dark);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   border-bottom: 1px solid var(--dark);
 }
@@ -160,7 +154,7 @@ header {
 .main__home {
   height: 75vh;
   width: 100%;
-  background-image: url('../assets/img/Cover.png');
+  background-image: url('../assets/img/Cover.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
